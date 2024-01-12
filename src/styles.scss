@@ -1,1 +1,52 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 50px;
+}
+
+.rect {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  margin-top: 50px;
+}
+
+input {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 25px;
+  width: 100%;
+  background: white;
+  border: 1px solid gray;
+}
+
+.todo-item {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  height: 50px;
+  background: white;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+.container {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
