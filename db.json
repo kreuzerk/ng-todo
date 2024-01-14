@@ -1,18 +1,13 @@
 {
   "todos": [
     {
-      "id": "5b75",
-      "title": "something",
+      "id": "78a0",
+      "title": "Eat something",
       "done": false
     },
     {
-      "id": "75f6",
-      "title": "test",
-      "done": false
-    },
-    {
-      "id": "c2e8",
-      "title": "super",
+      "id": "8db7",
+      "title": "Study Angular",
       "done": false
     }
   ]
