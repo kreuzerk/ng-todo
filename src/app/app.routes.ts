@@ -4,7 +4,7 @@ export const routes: Routes = [
   {
     path: 'todo-editor',
     loadComponent: () =>
-      import('./features/todo-editor/todo-editor.component')
+      import('./todos/todo-editor.component')
   },
   {
     path: '',

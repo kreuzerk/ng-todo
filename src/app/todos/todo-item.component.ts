@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, EventEmitter, Input, Output} from "@angular/core";
-import {Todo} from "../core/todo.model";
+import {Todo} from "./todo.model";
 
 @Component({
   standalone: true,

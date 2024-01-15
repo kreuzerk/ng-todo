@@ -8,26 +8,17 @@ body {
   box-sizing: border-box;
 }
 
-.title-icon {
-  font-size: 80px;
-  margin-right: 20px;
-}
-
 h1 {
   display: flex;
   align-items: center;
   color: #CC9A9AFF;
   font-size: 80px;
   font-weight: lighter;
-}
 
-.rect {
-  width: 100px;
-  height: 100px;
-}
-
-.title {
-  margin-top: 50px;
+  .title-icon {
+    font-size: 80px;
+    margin-right: 20px;
+  }
 }
 
 .todo-editor {
@@ -45,23 +36,14 @@ input {
   padding: 1px 20px 1px 20px;
   border: none;
   background: #fff;
-  position: relative;
-  margin: 0;
   width: 100%;
-  line-height: 1.4em;
   outline: none;
-  /*padding: 6px;*/
-  /*border: 1px solid #999;*/
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   border-bottom: 1px solid #EDEDEDFF;
 
   &::placeholder {
     font-style: italic;
     color: #CC9A9AFF;
   }
-
 }
 
 .todo-item {

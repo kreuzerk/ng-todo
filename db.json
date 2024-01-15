@@ -1,14 +1,3 @@
 {
-  "todos": [
-    {
-      "id": "78a0",
-      "title": "Eat something",
-      "done": false
-    },
-    {
-      "id": "8db7",
-      "title": "Study Angular",
-      "done": false
-    }
-  ]
+  "todos": []
 }
