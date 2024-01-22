@@ -37,14 +37,14 @@ export default class TodoEditorComponent implements OnInit {
 
   ngOnInit(): void {
     this.todosService.getTodos()
-    }
+  }
 
-  addTodo(){
+  addTodo() {
     this.todosService.addTodo(this.inputValue);
     this.inputValue = '';
   }
 
-  deleteTodo(id: string){
+  deleteTodo(id: string) {
     this.todosService.deleteTodo(id);
   }
 
